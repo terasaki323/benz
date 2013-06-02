@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>MERCEDES BENZ SERVICE CONTRACT INPUT SYSTEM</title>
+<link href="css/main.css" type="text/css" rel="stylesheet" />
+<link href="css/navi.css" type="text/css" rel="stylesheet" />
+<link href="css/service_choice.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+  <div class="header">
+    <h1><img src="images/logo.png"></h1>
+  </div>
+  <div class="nav">
+    <div class="menu">
+      <ul>
+      <li><a href="service_choice.htm">サービス選択</a></li>
+      <li><a href="service_input.htm">入力</a>
+        <ul>
+          <li><a href="service_input.htm">新規入力</a></li>
+          <li><a href="service_update.htm">修正</a></li>
+          <li><a href="service_choice.htm">検索／一覧表示</a></li>
+          <li><a href="service_kaishu.htm">原本回収日</a></li>
+          <li><a href="service_kaishu.htm">ファイリング日</a></li>
+        </ul>
+      </li>
+      <li><a href="service_output.htm">出力</a>
+        <ul>
+          <li><a href="service_output.htm">出力</a></li>
+          <li><a href="service_output_select.htm">出力先指定</a></li>
+        </ul>
+      </li>
+      <li><a href="master_kakaku.htm">マスタメンテナンス</a>
+        <ul>
+          <li><a href="master_kakaku.htm" target="_blank">価格・モデル</a></li>
+          <li><a href="master_hanbai.htm" target="_blank">販売店</a></li>
+          <li><a href="master_sharyou.htm" target="_blank">車両</a></li>
+          <li><a href="master_keiyaku.htm">契約期間</a></li>
+          <li><a href="master_yubin.htm">郵便番号</a></li>
+          <li><a href="master_mcare.htm">MCARE情報</a></li>
+          <li class="bar">
+            <a href="master_combo.htm">コンボボックス</a>
+            <ul class="bar2">
+              <li class="bar2"><a href="master_service.htm">サーボビスフラグ</a></li>
+              <li class="bar2"><a href="master_kbn.htm">処理区分</a></li>
+              <li class="bar2"><a href="master_shubetu.htm">契約種別コード</a></li>
+              <li class="bar2"><a href="master_loan.htm">ローン会社</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div id="contents">
+    <div class="box">
+
+      <h3 class="midium">サービス選択</h3>
+      <div class="check">
+      <form>
+        <ul>
+          <li><span id="span1">
+            <input type="radio" name="service" value="sarari" checked>TSP</span></li>
+          <li><span id="span1">
+            <input type="radio" name="service" value="jiei">MP</span></li>
+          <li><span id="span1">
+            <input type="radio" name="service" value="syuhu">WP</span></li>
+          <li><span id="span1">
+            <input type="radio" name="service" value="smartTS">smartTS</span></li>
+          <li><span id="span1">
+            <input type="radio" name="service" value="smartMP">smartMP</span></li>
+        </ul>
+      </div>
+        <div class="cull">
+          <input type ="submit" value="選択"></li>
+        </div>
+      </form>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer"></div>
+
+</body>
+</html>
