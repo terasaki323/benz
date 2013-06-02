@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.serviceChoice{
+  color: #FFF;
+	font-size: 10pt;
+	width: 360px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #695ec7;
+}
+.serviceChoice input{
+	margin-bottom: 8px;
+}
